@@ -6,6 +6,6 @@ steps:
   args: 
   - '-c'
   - | 
-   
+    terraform init   
     terraform apply -auto-approve
  
